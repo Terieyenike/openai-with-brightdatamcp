@@ -1,0 +1,11 @@
+[project]
+name = "openai-with-brightdatamcp"
+version = "0.1.0"
+description = "CLI demo: asks a question, calls OpenAI Responses API with Bright Data MCP over SSE (no approval), and prints Markdown output"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.0.0",
+    "python-dotenv>=1.1.1",
+    "rich>=14.1.0",
+]
